@@ -24,12 +24,24 @@ body {
 	color: #f9f8ff;
   }
 
-  .links {
-	background-color: white;
-  }
-
   p,
   li {
 	font-size: 1.1em;
 	color: #f9f8ff;
+  }
+
+  .header,
+  .page-foot {
+	background-color: white;
+  }
+
+  .cta {
+	background: linear-gradient(#8e86b5, #acaeed);
+	color: white;
+	border-radius: 50px;
+  }
+
+  .skills {
+	border-right: 1px solid #8e86b5;
+	border-bottom: 1px solid #8e86b5;
   }
