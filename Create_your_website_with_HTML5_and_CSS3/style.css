@@ -9,6 +9,10 @@ body {
 	text-decoration: none;
   }
 
+  a:hover {
+	text-decoration: underline;
+  }
+
   em {
 	color: #a5b4fc;
 	font-style: normal;
@@ -35,13 +39,22 @@ body {
 	background-color: white;
   }
 
+  .header:hover, .page-foot:hover {
+	opacity: 0.5;
+  }
+
   .cta {
 	background: linear-gradient(#8e86b5, #acaeed);
 	color: white;
 	border-radius: 50px;
   }
 
+  .cta:hover {
+	color : #696484;
+  }
+
   .skills {
 	border-right: 1px solid #8e86b5;
 	border-bottom: 1px solid #8e86b5;
   }
+
